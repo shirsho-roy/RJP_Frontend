@@ -54,6 +54,7 @@ const Chat = () => {
         <input
           type="text"
           value={inputText}
+          placeholder='Ask your query?'
           onChange={(e) => setInputText(e.target.value)}
         />
         <button className='bg-primary' onClick={sendMessage}>Ask</button>

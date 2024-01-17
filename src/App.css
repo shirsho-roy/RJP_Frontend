@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center; 
   height: 100vh;
-  background-color: aqua;
+  background-color:rgb(205, 243, 242);
 }
 .chat-container {
   width: 800px;
@@ -72,4 +72,34 @@
 .button{
   background-color:white;
   border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+
+.app{
+  background-color:rgb(205, 243, 242);
+}
+.dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-head{
+  text-align: center;
+}
+.dropzone.active {
+  border-color: #2196f3;
+}
+.bg{
+  background-color: #487ef4;
 }

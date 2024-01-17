@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className="bg-primary">
+    <Navbar expand="lg" className="bg">
       <Container fluid>
         <Navbar.Brand href="#">FIR Files</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -17,10 +17,10 @@ function Navigation() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Image</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/image">Image</Nav.Link>
             
-            <Nav.Link href="#" disabled>
+            <Nav.Link href="#" >
               Contacts
             </Nav.Link>
           </Nav>
